@@ -1,6 +1,5 @@
 language: java
 sudo: false
-script: clean install assembly:single
+script: install
 jdk:
-  - oraclejdk7
   - openjdk7

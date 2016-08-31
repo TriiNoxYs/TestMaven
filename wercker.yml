@@ -1,10 +1,5 @@
-# docker box definition
-box: java
-
-# defining the dev pipeline
-dev:
+box: maven:latest
+build:
   steps:
-    - script:
-      name: maven build
-      code: |
-        mvn clean install assembly:single
+    - xenoterracide/maven:
+        goals: test

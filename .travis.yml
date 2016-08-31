@@ -3,3 +3,11 @@ os: osx
 language: java
 script:
   - mvn clean install assembly:single
+
+notifications:
+  slack: elvenia:86Jcu2qVAgiGugdgZydRPv1o
+  email:
+    recipients:
+      - triinoxys@gmail.com
+    on_success: change
+    on_failure: always

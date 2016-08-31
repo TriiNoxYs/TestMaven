@@ -6,6 +6,6 @@ build:
   after-steps:
         - slack-notifier:
             url: https://hooks.slack.com/services/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
-            channel: discussion
+            channel: 5-discussion
             username: WerckerBOT
             branch: master

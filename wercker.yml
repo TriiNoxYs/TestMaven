@@ -5,7 +5,7 @@ build:
         goals: clean install assembly:single
   after-steps:
         - slack-notifier:
-            url: https://hooks.slack.com/services/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
+            url: $SLACK_URL
             channel: important
-            username: test
+            username: WerckerBOT
             branch: master

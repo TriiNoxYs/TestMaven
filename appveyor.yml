@@ -1,2 +1,2 @@
-install:
+build_script:
   - mvn clean install assembly:single

@@ -3,9 +3,9 @@ build:
   steps:
     - xenoterracide/maven:
         goals: clean install assembly:single
-  after-steps:
-        - slack-notifier:
-            url: $SLACK
-            channel: 7-developpement
-            username: WerckerBOT
-            branch: master
+#  after-steps:
+#        - slack-notifier:
+#            url: $SLACK
+#            channel: 7-developpement
+#            username: WerckerBOT
+#            branch: master

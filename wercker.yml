@@ -1,0 +1,10 @@
+# docker box definition
+box: java
+
+# defining the dev pipeline
+dev:
+  steps:
+    - script:
+      name: maven build
+      code: |
+        mvn clean install assembly:single

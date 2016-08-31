@@ -1,4 +1,4 @@
 install:
   - cmd: choco install maven -y -f --version 3.3.9.1
 build_script:
-  - cmd: C:\tools\apache-maven-3.3.9\bin clean install assembly:single
+  - cmd: "C:\tools\apache-maven-3.3.9\bin\mvn.cmd" clean install assembly:single

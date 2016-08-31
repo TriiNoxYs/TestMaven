@@ -6,6 +6,6 @@ build:
   after-steps:
         - slack-notifier:
             url: $SLACK
-            channel: 5-discussion
+            channel: @triinoxys
             username: WerckerBOT
             branch: master

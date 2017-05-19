@@ -43,3 +43,5 @@ public class GithubAPI{
         }
     }
 }
+
+//Test gpg sign with cmd line
